@@ -1,0 +1,9 @@
+
+*** START OF THE PROJECT GUTENBERG EBOOK
+
+Hello hello? hello.
+This is a test of NLP 3000!
+This: is "only" a; test.
+...
+
+*** END OF THE PROJECT GUTENBERG EBOOK

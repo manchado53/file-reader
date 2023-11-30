@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "CheckStyle",
+      "setup": "wget --no-verbose https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar; wget --no-verbose https://csse.msoe.us/csc1110/MSOE_checkStyle.xml;",
+      "run": "java -jar checkstyle-10.12.4-all.jar -c MSOE_checkStyle.xml -e src/test/*.java src/**/*.java;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Unit Tests",
+      "setup": "wget --no-verbose https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.2/junit-platform-console-standalone-1.9.2.jar; javac -d target -cp target:junit-platform-console-standalone-1.9.2.jar src/**/*.java; ",
+      "run": "java -jar junit-platform-console-standalone-1.9.2.jar --class-path target --select-class test.Lab13Tests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
