@@ -3,13 +3,14 @@
  * Assignment: Text Processing
  * Name: // TODO: YOUR NAME HERE
  */
+
 package tests;
 
-import username.BasicWord;
-import username.Bigram;
-import username.Driver;
-import username.VocabularyEntry;
-import username.Word;
+import manchadoa.BasicWord;
+import manchadoa.Bigram;
+import manchadoa.Driver;
+import manchadoa.VocabularyEntry;
+import manchadoa.Word;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
